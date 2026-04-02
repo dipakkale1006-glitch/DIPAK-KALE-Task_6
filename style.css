@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+/* Left Section */
+.left {
+    flex: 1;
+    background: #1e90ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    width: 350px;
+}
+
+/* Right Section */
+.right {
+    flex: 1;
+    background: #f2f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Box */
+.form-box {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Heading */
+.form-box h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.form-box p {
+    color: #777;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Inputs */
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #eaeaea;
+    outline: none;
+}
+
+/* Forgot Password */
+.forgot {
+    text-align: right;
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+}
+
+/* Button */
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: #1e90ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Register */
+.register {
+    text-align: center;
+    font-size: 14px;
+}
+
+.register span {
+    color: #1e90ff;
+    cursor: pointer;
+}
